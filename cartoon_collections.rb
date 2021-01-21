@@ -11,7 +11,7 @@ def square_array(array)
   end 
   new_array
 end
-  
+end  
 end
 
 def summon_captain_planet(planeteer_calls)
