@@ -22,7 +22,8 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.map do |element|
     if element.length > 4
-    end 
+    end
+  end 
 end
 
 def find_valid_calls(planeteer_calls)
