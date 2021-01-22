@@ -21,7 +21,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.each do |call|
-    call.length > 4
+    if call.length > 4
     return true 
   end 
 end
